@@ -4,6 +4,14 @@
 
 This module is inspired and clone by [generator-alfred](https://github.com/SamVerschueren/generator-alfred)
 
+Example:
+
+![](./media/demo.png)
+
+Example result:
+
+![](./media/demo2.png)
+
 ## Install
 
 ```
