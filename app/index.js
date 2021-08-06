@@ -91,7 +91,7 @@ module.exports = class extends Generator {
 			mv('travis.yml', '.travis.yml');
 			mv('_package.json', 'package.json');
 
-			if (props.extensionType === 'workflow') {
+			if (props.extensionType === 'Workflow') {
 				mv('index-workflow.js', 'index.js');
 				this.fs.delete('index-plugin.js');
 				this.fs.delete('arvis-plugin.json');
