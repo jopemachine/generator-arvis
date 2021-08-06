@@ -1,0 +1,14 @@
+{
+	"$schema": "https://raw.githubusercontent.com/jopemachine/arvis-extension-validator/master/plugin-schema.json",
+	"creator": "<%= name %>",
+	"name": "<%= moduleName %>",
+	"category": "<%= arvisCategory %>",
+	"description": "<%= moduleDescription %>",
+	"webAddress": "<%= website %>",
+	"enabled": true,
+	"defaultIcon": "icon.png",
+	"readme": "",
+	"version": "0.0.1",
+	"main": "index.js",
+	"actions": []
+}

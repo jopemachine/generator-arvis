@@ -1,0 +1,37 @@
+{
+  "name": "<%= moduleName %>",
+  "version": "0.0.1",
+  "description": "<%= moduleDescription %>",
+  "license": "MIT",
+  "repository": "<%= githubUsername %>/<%= repoName %>",
+  "author": {
+    "name": "<%= name %>",
+    "email": "<%= email %>",
+    "url": "<%= humanizedWebsite %>"
+  },
+  "engines": {
+    "node": ">=4"
+  },
+  "scripts": {
+    "test": "xo && ava",
+    "postinstall": "arvish-init",
+    "preuninstall": "arvish-cleanup"
+  },
+  "files": [
+    "index.js",
+    "icon.png"
+  ],
+  "keywords": [
+    "arvis",
+    "arvis-extension",
+    "arvish"
+  ],
+  "dependencies": {
+    "arvish": "^0.8.1"
+  },
+  "devDependencies": {
+    "arvish-test": "^0.1.0",
+    "ava": "^0.18.0",
+    "xo": "^0.17.0"
+  }
+}
