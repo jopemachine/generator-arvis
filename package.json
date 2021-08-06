@@ -1,7 +1,7 @@
 {
   "name": "generator-arvis",
-  "version": "0.0.1",
-  "description": "Scaffold out an Arvis workflow",
+  "version": "0.0.3",
+  "description": "Scaffold out an Arvis extension",
   "license": "MIT",
   "author": "jopemachine",
   "engines": {

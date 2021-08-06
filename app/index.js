@@ -93,9 +93,11 @@ module.exports = class extends Generator {
 
 			if (props.extensionType === 'workflow') {
 				mv('index-workflow.js', 'index.js');
+				this.fs.delete('index-plugin.js');
 				this.fs.delete('arvis-plugin.json');
 			} else {
 				mv('index-plugin.js', 'index.js');
+				this.fs.delete('index-workflow.js');
 				this.fs.delete('arvis-workflow.json');
 			}
 		});

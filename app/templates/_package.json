@@ -10,7 +10,7 @@
     "url": "<%= humanizedWebsite %>"
   },
   "engines": {
-    "node": ">=4"
+    "node": ">=12"
   },
   "scripts": {
     "test": "xo && ava",
@@ -19,11 +19,12 @@
   },
   "files": [
     "index.js",
-    "icon.png"
+    "icon.png",
+	"arvis-<%= extensionType %>.json"
   ],
   "keywords": [
     "arvis",
-    "arvis-extension",
+    "arvis-<%= extensionType %>",
     "arvish"
   ],
   "dependencies": {
